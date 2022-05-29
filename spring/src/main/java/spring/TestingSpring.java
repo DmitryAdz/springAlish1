@@ -19,6 +19,7 @@ public class TestingSpring {
 		System.out.println("musicC2 hash: " + musicC2);
 		System.out.println("musicC1 == musicC2: " + (musicC1 == musicC2));
 		
+		
 		MusicRock musicR1 = context.getBean("musicRock", MusicRock.class);
 		MusicRock musicR2 = context.getBean("musicRock", MusicRock.class);
 		System.out.println("musicR1 hash: " + musicR1);
